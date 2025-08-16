@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Clock, Users, Star, BookOpen, Calendar, Award } from "lucide-react";
+import { Clock, Users, Star, BookOpen, Calendar, Award, Gamepad2, Palette, Smile } from "lucide-react";
 
 const Programs = () => {
   const programs = [
@@ -7,7 +7,6 @@ const Programs = () => {
       title: "Beginner's Journey",
       level: "N5-N4",
       duration: "6 months",
-      students: "12 max",
       price: "¥180,000",
       features: [
         "Hiragana & Katakana mastery",
@@ -22,7 +21,6 @@ const Programs = () => {
       title: "Intermediate Immersion",
       level: "N3-N2",
       duration: "8 months",
-      students: "10 max",
       price: "¥240,000",
       features: [
         "Complex grammar structures",
@@ -37,7 +35,6 @@ const Programs = () => {
       title: "Advanced Mastery",
       level: "N1",
       duration: "12 months",
-      students: "8 max",
       price: "¥320,000",
       features: [
         "Advanced literature study",
@@ -45,6 +42,33 @@ const Programs = () => {
         "Cultural nuances",
         "JLPT N1 preparation",
         "Career guidance"
+      ],
+      popular: false
+    },
+    {
+      title: "Wakuwaku Club (Exciting Club)",
+      level: "Primary & High School",
+      duration: "Ongoing",
+      price: "¥150,000",
+      features: [
+        { text: "Fun, interactive Japanese lessons", icon: BookOpen },
+        { text: "Games and playful activities", icon: Gamepad2 },
+        { text: "Creative projects & cultural exploration", icon: Palette },
+        { text: "Friendly group environment", icon: Smile }
+      ],
+      special: true, // flag for kid-friendly styling
+      popular: false
+    },
+    {
+      title: "Individualized Classes",
+      level: "All Levels",
+      duration: "Flexible",
+      price: "¥400,000",
+      features: [
+        "One-on-one lessons tailored to your goals",
+        "Flexible scheduling",
+        "Personalized learning plan",
+        "Intensive conversation practice"
       ],
       popular: false
     }
@@ -95,10 +119,6 @@ const Programs = () => {
                     <span>{program.duration}</span>
                   </div>
                   <div className="flex items-center text-muted-foreground">
-                    <Users className="w-5 h-5 mr-3 text-accent" />
-                    <span>{program.students}</span>
-                  </div>
-                  <div className="flex items-center text-muted-foreground">
                     <Award className="w-5 h-5 mr-3 text-accent" />
                     <span>Certificate included</span>
                   </div>
@@ -108,8 +128,17 @@ const Programs = () => {
                   <ul className="space-y-3">
                     {program.features.map((feature, featureIndex) => (
                       <li key={featureIndex} className="flex items-center text-sm text-muted-foreground">
-                        <Star className="w-4 h-4 mr-3 text-accent fill-current" />
-                        {feature}
+                        {typeof feature === "string" ? (
+                          <>
+                            <Star className="w-4 h-4 mr-3 text-accent fill-current" />
+                            {feature}
+                          </>
+                        ) : (
+                          <>
+                            <feature.icon className="w-4 h-4 mr-3 text-accent" />
+                            {feature.text}
+                          </>
+                        )}
                       </li>
                     ))}
                   </ul>

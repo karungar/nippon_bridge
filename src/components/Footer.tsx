@@ -52,11 +52,6 @@ const Footer = () => {
               <p className="text-sm opacity-80 mb-4 md:mb-0">
                 © 2024 Nippon Bridge Academy. All rights reserved.
               </p>
-              <div className="flex items-center text-sm opacity-80">
-                <span>Made with</span>
-                <Heart className="w-4 h-4 mx-1 text-accent-light fill-current" />
-                <span>for Japanese learners worldwide</span>
-              </div>
             </div>
           </div>
         </div>

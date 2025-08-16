@@ -30,7 +30,7 @@ const Contact = () => {
                     <div>
                       <p className="font-semibold text-foreground">Location</p>
                       <p className="text-muted-foreground">
-                        Shibuya, Tokyo, Japan<br />
+                        Naivasha, Kenya<br />
                         Available worldwide online
                       </p>
                     </div>
@@ -39,14 +39,14 @@ const Contact = () => {
                     <Phone className="w-6 h-6 text-accent mt-1" />
                     <div>
                       <p className="font-semibold text-foreground">Phone</p>
-                      <p className="text-muted-foreground">+81-3-1234-5678</p>
+                      <p className="text-muted-foreground">+254722143317</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-4">
                     <Mail className="w-6 h-6 text-accent mt-1" />
                     <div>
                       <p className="font-semibold text-foreground">Email</p>
-                      <p className="text-muted-foreground">info@nipponbridge.academy</p>
+                      <p className="text-muted-foreground">nipponbridgeacademy@gmail.com</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-4">
@@ -54,8 +54,8 @@ const Contact = () => {
                     <div>
                       <p className="font-semibold text-foreground">Office Hours</p>
                       <p className="text-muted-foreground">
-                        Mon-Fri: 9:00 AM - 6:00 PM JST<br />
-                        Sat: 10:00 AM - 4:00 PM JST
+                        Mon-Fri: 9:00 AM - 5:00 PM EAT<br />
+                        Sat: 10:00 AM - 4:00 PM EAT
                       </p>
                     </div>
                   </div>
@@ -69,7 +69,7 @@ const Contact = () => {
                 <ul className="space-y-3 text-muted-foreground">
                   <li className="flex items-center">
                     <div className="w-2 h-2 bg-accent rounded-full mr-3"></div>
-                    Native Japanese instructors
+                    Connect to work and study opportunities
                   </li>
                   <li className="flex items-center">
                     <div className="w-2 h-2 bg-accent rounded-full mr-3"></div>
@@ -81,7 +81,7 @@ const Contact = () => {
                   </li>
                   <li className="flex items-center">
                     <div className="w-2 h-2 bg-accent rounded-full mr-3"></div>
-                    Proven JLPT success rate
+                    JLPT exam preparation support
                   </li>
                 </ul>
               </div>

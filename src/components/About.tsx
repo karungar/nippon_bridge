@@ -10,8 +10,7 @@ const About = () => {
               About Nippon Bridge Academy
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              We bridge cultures through language, creating pathways to understanding, 
-              opportunity, and connection with Japan's rich heritage.
+             "We are Nippon Bridge Academy: Kenya's pioneering Kenyan-led institution, uniquely connecting Japanese language mastery with real-world opportunities for work and study."
             </p>
           </div>
 
@@ -21,13 +20,10 @@ const About = () => {
                 Our Mission
               </h3>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                At Nippon Bridge Academy, we believe language learning is more than grammar and vocabulary. 
-                It's about building bridges between cultures, fostering understanding, and opening doors 
-                to new opportunities in Japan's dynamic society.
+                "Nippon Bridge Academy empowers learners through language. We cultivate deep understanding between Kenyan and Japanese cultures, build lasting partnerships, and unlock new pathways to opportunity in both societies."
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Our immersive approach combines traditional Japanese pedagogical methods with 
-                modern technology, creating an environment where students don't just learn Japanese—they live it.
+                "We blend authentic Japanese teaching traditions with modern technology to create total immersion. Here, students cross the bridge from passive learning to actively using Japanese in authentic, real-world contexts."
               </p>
             </div>
             <div className="bg-card rounded-2xl p-8 shadow-medium hover-lift">
