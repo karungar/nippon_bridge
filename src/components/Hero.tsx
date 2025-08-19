@@ -60,7 +60,7 @@ const Hero = () => {
             <div className="text-center">
               <Users className="w-8 h-8 mx-auto mb-3 text-accent-light" />
               <h3 className="font-semibold mb-2">Expert Instructors</h3>
-              <p className="text-sm opacity-80">Learn from native speakers</p>
+              <p className="text-sm opacity-80">Goal Oriented Learning</p>
             </div>
             <div className="text-center">
               <BookOpen className="w-8 h-8 mx-auto mb-3 text-accent-light" />

@@ -5,9 +5,9 @@ const Programs = () => {
   const programs = [
     {
       title: "Beginner's Journey",
-      level: "N5-N4",
+      level: "N5",
       duration: "6 months",
-      price: "¥180,000",
+      price: "Ksh 90,000",
       features: [
         "Hiragana & Katakana mastery",
         "Basic conversation skills",
@@ -19,9 +19,9 @@ const Programs = () => {
     },
     {
       title: "Intermediate Immersion",
-      level: "N3-N2",
-      duration: "8 months",
-      price: "¥240,000",
+      level: "N4",
+      duration: "6 months",
+      price: "Ksh 90,000",
       features: [
         "Complex grammar structures",
         "Business Japanese basics",
@@ -32,24 +32,10 @@ const Programs = () => {
       popular: true
     },
     {
-      title: "Advanced Mastery",
-      level: "N1",
-      duration: "12 months",
-      price: "¥320,000",
-      features: [
-        "Advanced literature study",
-        "Professional communication",
-        "Cultural nuances",
-        "JLPT N1 preparation",
-        "Career guidance"
-      ],
-      popular: false
-    },
-    {
       title: "Wakuwaku Club (Exciting Club)",
       level: "Primary & High School",
       duration: "Ongoing",
-      price: "¥150,000",
+      price: "Custom",
       features: [
         { text: "Fun, interactive Japanese lessons", icon: BookOpen },
         { text: "Games and playful activities", icon: Gamepad2 },
@@ -63,7 +49,7 @@ const Programs = () => {
       title: "Individualized Classes",
       level: "All Levels",
       duration: "Flexible",
-      price: "¥400,000",
+      price: "Custom",
       features: [
         "One-on-one lessons tailored to your goals",
         "Flexible scheduling",
@@ -120,7 +106,7 @@ const Programs = () => {
                   </div>
                   <div className="flex items-center text-muted-foreground">
                     <Award className="w-5 h-5 mr-3 text-accent" />
-                    <span>Certificate included</span>
+                    <span>Prepare for JLPT exams and earn a Certificate </span>
                   </div>
                 </div>
 

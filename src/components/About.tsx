@@ -10,7 +10,7 @@ const About = () => {
               About Nippon Bridge Academy
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-             "We are Nippon Bridge Academy: Kenya's pioneering Kenyan-led institution, uniquely connecting Japanese language mastery with real-world opportunities for work and study."
+             "Kenya's first Japanese Language institution, uniquely connecting Japanese language mastery with real-world opportunities for work and study."
             </p>
           </div>
 

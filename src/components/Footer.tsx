@@ -50,7 +50,7 @@ const Footer = () => {
           <div className="border-t border-primary-light pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <p className="text-sm opacity-80 mb-4 md:mb-0">
-                © 2024 Nippon Bridge Academy. All rights reserved.
+                © 2025 Nippon Bridge Academy. All rights reserved.
               </p>
             </div>
           </div>

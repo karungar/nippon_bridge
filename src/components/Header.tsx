@@ -45,9 +45,9 @@ const Header = () => {
             >
               Contact
             </button>
-            <Button variant="accent" size="sm">
+            {/* <Button variant="accent" size="sm">
               Apply Now
-            </Button>
+            </Button> */}
           </div>
         </nav>
       </div>
