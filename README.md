@@ -4,8 +4,6 @@ This project is a modern web application starter built with [Vite](https://vitej
 
 ## Project Info
 
-- **URL:** https://lovable.dev/projects/15267855-230f-4b2b-838e-b98543046008
-
 ## Technologies Used
 
 - Vite
